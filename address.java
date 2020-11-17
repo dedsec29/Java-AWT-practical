@@ -137,9 +137,10 @@ class address extends JFrame implements ActionListener {
 
                 JOptionPane.showMessageDialog(c, "Enter all details");
             }
-            else{
+            else {
+                orderconfirm a = new orderconfirm();
+                a.setVisible(true);
                 dispose();
-                //next frame
             }
         }
         if (e.getSource() == reset) {
